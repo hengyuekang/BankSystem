@@ -3,8 +3,9 @@
 
 #include <QWidget>
 
-namespace Ui {
-class Admin;
+namespace Ui
+{
+    class Admin;
 }
 
 class Admin : public QWidget

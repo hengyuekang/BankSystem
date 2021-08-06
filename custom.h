@@ -3,8 +3,9 @@
 
 #include <QWidget>
 
-namespace Ui {
-class Custom;
+namespace Ui
+{
+    class Custom;
 }
 
 class Custom : public QWidget
@@ -14,13 +15,12 @@ class Custom : public QWidget
 public:
     explicit Custom(QWidget *parent = nullptr);
     void readCustominfo();
-//    save card only!
+    //    save card only!
     void saveMoney();
     void getMoney();
     void showTurnover();
     void calInterest();
     ~Custom();
-
 
 private:
     Ui::Custom *ui;
