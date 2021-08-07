@@ -61,7 +61,6 @@ Admin::~Admin()
 }
 void Admin::openAccount()
 {
-    //    format:account/password/admin or custom/date/type 0:admin,1:saving,2:credit card
     //    opening1:account/password/0:admin,1:saving,2:credit card/date
     //        QString Filepath = QDir::currentPath() + "/opening.txt";
     QString Filepath = QDir::currentPath() + "/opening1.txt";

@@ -15,7 +15,7 @@ class Custom : public QWidget
 public:
     explicit Custom(QWidget *parent = nullptr);
     void readCustominfo();
-    //    save card only!
+    //    save card only
     void saveMoney();
     void getMoney();
     void showTurnover();
